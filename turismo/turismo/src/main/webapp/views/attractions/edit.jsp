@@ -16,6 +16,10 @@
 				<p>Se encontraron errores al actualizar la atracción.</p>
 			</div>
 		</c:if>
+		
+			<div class="bg-light p-4 mb-3 rounded">
+			<h1>Modificar atracciones</h1>
+		</div>
 
 		<form action="/turismo/attractions/edit.do" method="post">
 			<input type="hidden" name="id" value="${attraction.id}">

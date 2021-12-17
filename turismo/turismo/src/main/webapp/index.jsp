@@ -22,12 +22,14 @@
 	<jsp:include page="/partials/nav.jsp"></jsp:include>
 	
 	
-			<img src="assets/images/main1.jpg" class="d-block w-100" max-width= 100%; height= auto; >
+<img src="assets/images/main1.jpg" class="d-block w-100" max-width= 100%; height= auto;></img>			
  <p>
  </p>
 <div class="d-grid gap-2">
-  <button class="btn btn-primary" type="button" style= "background-color: #000000; border-color: #000000" ><a href="views/users/detalle.jsp">Ver detalle de Atracciones</button>
-  <button class="btn btn-primary" type="button" style= "background-color: #000000; border-color: #000000" ><a href="/turismo/attractions/index.do">COMPRAR ATRACCIONES</button>
+  <button class="btn btn-primary" type="button" style= "background-color: #000000; border-color: #000000" >
+  <a href="views/users/detalle.jsp">Ver detalle de Atracciones</button></a>
+  <button class="btn btn-primary" type="button" style= "background-color: #000000; border-color: #000000" >
+  <a href="/turismo/attractions/index.do">COMPRAR ATRACCIONES</button></a>
 </div>
  <p>
  </p>

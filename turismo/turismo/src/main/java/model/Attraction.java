@@ -106,6 +106,11 @@ public class Attraction {
 		this.capacity -= i;
 	}
 
+	public static void add(Attraction atraccion) {
+		// TODO Auto-generated method stub
+		
+	}
+
 	
 	
 }

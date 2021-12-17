@@ -16,6 +16,11 @@
 						<li class="nav-item"><a class="nav-link active"
 						aria-current="page" href="/turismo/users/index.do">Usuarios</a></li>
 					</c:if>
+					
+					<c:if test="${!user.isAdmin()}">
+						<li class="nav-item"><a class="nav-link active"
+						aria-current="page" href="/turismo/itinerario.jsp">Itinerario</a></li>
+					</c:if>
 			</ul>
 			<ul class="navbar-nav">
 				<li class="nav-item dropdown">
